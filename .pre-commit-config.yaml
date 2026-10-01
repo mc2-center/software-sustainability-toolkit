@@ -21,7 +21,7 @@ repos:
       - id: detect-private-key
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.16.7
+    rev: v0.16.9
     hooks:
       # Lint first so the formatter has the last word on layout: a rule fix can leave a line
       # the formatter would wrap differently.
