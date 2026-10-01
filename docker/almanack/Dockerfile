@@ -1,4 +1,4 @@
-FROM python:3.13-slim-trixie
+FROM python:3.14-slim-trixie
 
 # procps supplies the ps that Nextflow calls to collect per-task resource metrics. Only Almanack
 # runs in this image, so its Python version is independent of the rest of the pipeline's.
